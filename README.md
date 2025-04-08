@@ -1,57 +1,47 @@
-# DivCopy
+# DivCopy — Instantly Inspect and Copy Tailwind / CSS Styles
 
-DivCopy is a lightweight browser extension that allows frontend developers to easily inspect, copy, and reuse web elements with their CSS properties and TailwindCSS equivalents.
+## Overview
+
+DivCopy is a lightweight browser extension that allows developers to hover over any element, instantly view its Tailwind classes or computed CSS styles, and copy them directly to the clipboard.  
+Designed to save development time by eliminating the need to manually dig through browser DevTools.
 
 ## Features
 
-- Injects a small toggle button into any webpage.
-- Hover over any element to:
-  - Highlight it with a red border.
-  - Instantly display its full CSS properties and TailwindCSS classes.
-- Click on an element to:
-  - Copy all related CSS.
-  - Generate clean, ready-to-use HTML code.
-
-DivCopy simplifies the process of inspecting and reusing components without needing to manually open DevTools or rewrite styles.
+- **Hover to Inspect**: View Tailwind classes or CSS styles on any website simply by hovering over elements.
+- **One-click Copy**: Quickly copy Tailwind class names or inline CSS styles for immediate use.
+- **Lightweight and Fast**: Minimal interface for maximum efficiency without slowing down the browser.
+- **Smart Detection**: Automatically identifies Tailwind classes, inline styles, or computed styles.
+- **Cross-Site Compatibility**: Works on any website, regardless of the technology stack.
 
 ## Installation
 
-1. Clone this repository.
-2. Load it into your browser as an unpacked extension:
-   - Go to `chrome://extensions/` (for Chrome/Brave) or `about:debugging` (for Firefox).
-   - Enable **Developer mode**.
-   - Click **Load unpacked** and select the extension folder.
-3. Click the DivCopy button to start using it.
+1. Download the extension folder or ZIP file.
+2. Open your browser’s Extensions page.
+3. Enable "Developer Mode."
+4. Click "Load Unpacked" and select the DivCopy folder.
+5. The extension is now ready to use.
 
-## Usage
+## Use Cases
 
-- Click the DivCopy toggle button to activate.
-- Hover over any element to view its styles.
-- Click on an element to copy its CSS and generate HTML.
+- Quickly replicate design sections from existing websites.
+- Speed up prototyping by directly copying Tailwind classes.
+- Study and learn modern frontend design techniques by inspecting real-world sites.
 
-## Tech Stack
+## Built With
 
-- JavaScript
-- HTML/CSS
-- TailwindCSS (for style mapping)
+- Vanilla JavaScript
+- love
 
-## License
+## Motivation
 
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-
+DivCopy was created to streamline the workflow of frontend developers by providing a faster alternative to traditional DevTools inspection.  
+Instead of manually locating styles, developers can now copy needed styles instantly, making the building and learning process much more efficient.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Contributions, ideas, and suggestions are welcome.  
+Please open an issue or submit a pull request if you would like to collaborate.
 
----
+## License
 
-## Contact
-
-For questions or suggestions, feel free to reach out via GitHub Issues.
-
----
-
+This project is open-source and available under the [MIT License](LICENSE).
