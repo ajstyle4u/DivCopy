@@ -6,7 +6,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Hover to Inspect**: Highlight elements on any webpage instantly.
 - **One-Click Copy**: Grab clean HTML + computed CSS effortlessly.
@@ -16,7 +16,7 @@
 
 ---
 
-## 🚀 How to Install
+##  How to Install
 
 1. **Download or Copy** the DivCopy script.
 2. **Paste** it into your browser's DevTools Console.
@@ -24,7 +24,7 @@
 
 ---
 
-## ⚡ Usage
+##  Usage
 
 - **Activate**: Click the floating DivCopy button.
 - **Hover**: Elements get outlined and inspected.
@@ -33,7 +33,7 @@
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Language**: Vanilla JavaScript
 - **Architecture**: Lightweight, performance-focused
@@ -41,13 +41,13 @@
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
 
-## 🌟 Why DivCopy?
+##  Why DivCopy?
 
 Because copying just the HTML isn't enough.  
 DivCopy gives you the **full picture** — HTML structure **+** CSS styles — so you can **replicate** components instantly.
