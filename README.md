@@ -4,23 +4,30 @@
 [![Built with JavaScript](https://img.shields.io/badge/Built%20with-JavaScript-blue)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)](#)
 
+## Overview
+
+DivCopy is a lightweight browser extension that allows developers to hover over any element, instantly view its Tailwind classes or computed CSS styles(tailwind also), and copy them directly to the clipboard.  
+Designed to save development time by eliminating the need to manually dig through browser DevTools.
+
 ---
 
 ##  Features
 
-- **Hover to Inspect**: Highlight elements on any webpage instantly.
-- **One-Click Copy**: Grab clean HTML + computed CSS effortlessly.
-- **Floating Button**: Draggable toggle button keeps out of your way.
-- **Zero Dependencies**: Built with pure Vanilla JavaScript.
-- **Universal**: Works across all websites and web apps.
+- **Hover to Inspect**: View Tailwind classes or CSS styles on any website simply by hovering over elements.
+- **One-click Copy**: Quickly copy Tailwind class names or inline CSS styles for immediate use.
+- **Lightweight and Fast**: Minimal interface for maximum efficiency without slowing down the browser.
+- **Smart Detection**: Automatically identifies Tailwind classes, inline styles, or computed styles.
+- **Cross-Site Compatibility**: Works on any website, regardless of the technology stack.
 
 ---
 
-##  How to Install
+##  Installation
 
-1. **Download or Copy** the DivCopy script.
-2. **Paste** it into your browser's DevTools Console.
-3. (Optional) **Save as Bookmarklet** for one-click activation.
+1. Download the extension folder or ZIP file.
+2. Open your browser’s Extensions page.
+3. Enable "Developer Mode."
+4. Click "Load Unpacked" and select the DivCopy folder.
+5. The extension is now ready to use.
 
 ---
 
@@ -28,7 +35,7 @@
 
 - **Activate**: Click the floating DivCopy button.
 - **Hover**: Elements get outlined and inspected.
-- **Click**: Instantly copy HTML + CSS to clipboard.
+- **Click**: Instantly copy HTML + CSS to clipboard (tailwind also).
 - **Deactivate**: Click the button again.
 
 ---
@@ -38,6 +45,11 @@
 - **Language**: Vanilla JavaScript
 - **Architecture**: Lightweight, performance-focused
 - **Design**: Minimalistic and intuitive
+
+## Contributing
+
+Contributions, ideas, and suggestions are welcome.  
+Please open an issue or submit a pull request if you would like to collaborate.
 
 ---
 
@@ -50,7 +62,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 ##  Why DivCopy?
 
 Because copying just the HTML isn't enough.  
-DivCopy gives you the **full picture** — HTML structure **+** CSS styles — so you can **replicate** components instantly.
+DivCopy gives you the **full picture** — HTML structure **+** CSS styles — so you can **replicate** components instantly. (tailwind also)
 
 ---
 
