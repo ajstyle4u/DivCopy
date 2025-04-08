@@ -155,3 +155,47 @@ function copyElement(event) {
         .then(() => alert("Element copied!"))
         .catch(err => console.error("Copy failed:", err));
 }
+
+
+function showCopiedPopup(target) {
+    const popup = document.createElement("div");
+    popup.innerText = "Copied!";
+    Object.assign(popup.style, {
+        position: "absolute",
+        left: `${target.getBoundingClientRect().left + window.scrollX}px`,
+        top: `${target.getBoundingClientRect().top + window.scrollY - 30}px`,
+        background: "#4CAF50",
+        color: "white",
+        padding: "5px 10px",
+        borderRadius: "4px",
+        fontSize: "12px",
+        zIndex: "100000",
+        opacity: "0",
+        transition: "opacity 0.5s, top 0.5s"
+    });
+    document.body.appendChild(popup);
+
+    requestAnimationFrame(() => {
+        popup.style.opacity = "1";
+        popup.style.top = `${parseInt(popup.style.top) - 10}px`;
+    });
+
+    setTimeout(() => {
+        popup.style.opacity = "0";
+        popup.remove();
+    }, 1500);
+}
+
+function playSuccessSound() {
+    const audio = new Audio("data:audio/wav;base64,UklGRhYAAABXQVZFZm10IBAAAAABAAEAESsAACJWAAACABAAZGF0YYYAAAA=");
+    audio.play();
+}
+// ice 
+
+function animateButton() {
+    floatBtn.style.transform = "scale(1.2) rotate(10deg)";
+    setTimeout(() => floatBtn.style.transform = "scale(1) rotate(0deg)", 300);
+}
+
+// Initialize with correct framework icon
+setFrameworkIcon();
